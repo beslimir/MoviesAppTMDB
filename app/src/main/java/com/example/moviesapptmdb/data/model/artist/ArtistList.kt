@@ -1,4 +1,4 @@
-package com.example.moviesapptmdb.data.artist
+package com.example.moviesapptmdb.data.model.artist
 
 data class ArtistList(
     val page: Int,

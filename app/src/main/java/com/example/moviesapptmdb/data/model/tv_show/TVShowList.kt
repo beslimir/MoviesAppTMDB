@@ -1,4 +1,4 @@
-package com.example.moviesapptmdb.data.tv_show
+package com.example.moviesapptmdb.data.model.tv_show
 
 data class TVShowList(
     val page: Int,
