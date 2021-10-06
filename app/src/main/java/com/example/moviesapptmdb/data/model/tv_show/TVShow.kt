@@ -4,6 +4,8 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 import java.io.Serializable
 
+/** Entity for the TVShow - I will not use all fields, so I will just comment them **/
+
 @Entity
 data class TVShow(
 //    val backdrop_path: String,
