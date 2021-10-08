@@ -1,0 +1,57 @@
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:weightSum="3"
+        tools:context=".presentation.HomeActivity">
+
+        <Button
+            android:id="@+id/bMovies"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_rounded"
+            android:padding="15dp"
+            android:text="Movies"
+            android:textColor="@color/white"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/bTVShow"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_rounded"
+            android:padding="15dp"
+            android:text="TV Show"
+            android:textColor="@color/white"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/bArtists"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_rounded"
+            android:padding="15dp"
+            android:text="Artists"
+            android:textColor="@color/white"
+            android:textSize="50sp" />
+
+    </LinearLayout>
+
+</layout>
