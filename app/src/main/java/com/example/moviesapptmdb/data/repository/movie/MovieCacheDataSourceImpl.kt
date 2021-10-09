@@ -6,9 +6,7 @@ class MovieCacheDataSourceImpl: MovieCacheDataSource {
 
     private var movieList = ArrayList<Movie>()
 
-
     override suspend fun getMoviesFromCache() =  movieList
-
 
     override suspend fun saveMoviesToCache(movies: List<Movie>) {
         movieList.clear()
