@@ -70,10 +70,9 @@ class MovieActivity : AppCompatActivity() {
             if (it != null) {
                 movieAdapter.setList(it)
                 movieAdapter.notifyDataSetChanged()
-                binding.pbMovie
             }
 
-            binding.pbMovie.visibility = View.VISIBLE
+            binding.pbMovie.visibility = View.GONE
         })
     }
 
